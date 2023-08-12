@@ -1,0 +1,77 @@
+/* CSS Document */
+#container{
+	width:100%;
+	margin-left:auto;
+	margin-right:auto;
+}
+.login{
+	overflow:hidden;
+	background:#01A9DB;
+	padding:5px;
+}
+.login table{
+	float:right;
+}
+.form{
+	overflow:hidden;
+	padding:5px;
+	height: 85vh;
+}
+.form table{
+
+	margin-top:15px;
+	float:right;
+}
+#email, #pw, #cpw{
+	width:635px;
+	padding:15px;
+	margin: 20px 0;
+}
+#fname, #lname{
+	width:300px;
+	margin: 20px 0;
+	padding:15px;
+}
+#submit{
+	width:100%;
+	margin: 20px 0;
+	padding:5px;
+}
+#submit:hover{
+	background:#01A9DB;
+	border-radius:5px;
+}
+.footer{
+	height:15px;
+	background:#01A9DB;
+}
+h1{
+	font:Tahoma, Geneva, sans-serif;
+	font-size:12px;
+	color:#333;
+	padding:0px;
+	margin-top:0px;
+	margin-bottom:0px;
+}
+h2{
+	font:Tahoma, Geneva, sans-serif;
+	font-size:11px;
+	color:#F00;
+	padding:0px;
+	margin-top:0px;
+	margin-bottom:0px;
+}
+h3{
+	border:1px solid #f0f0f0;
+	font:"Courier New", Courier, monospace;
+	font-size:14px;
+	color:#666;
+	padding:3px;
+	margin:0px;
+}
+#login_email, #login_password{
+	width:150px;
+	padding:5px;
+	font:Tahoma, Geneva, sans-serif;
+	font-size:11px;
+}
